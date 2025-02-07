@@ -1,9 +1,10 @@
+if game.PlaceId == 5293755937 then
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Speed Run Simulator âš¡",
+   Name = "Speed Run Simulator |MadeBySUDAIS",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "UpdatedVersion",
-   LoadingSubtitle = "by SUDAAISxCHEATS",
+   LoadingSubtitle = "by SUDAISxCHEATS",
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
@@ -23,7 +24,7 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "GetKey",
+      Title = "GetKey | by sudais",
       Subtitle = "Key System",
       Note = "Get The Key From LinkVertise", -- Use this to tell the user how to get a key
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
@@ -64,3 +65,4 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebir
 end
    end,
 })
+end

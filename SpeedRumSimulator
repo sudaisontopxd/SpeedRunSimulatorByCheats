@@ -66,7 +66,7 @@ end
    end,
 })
 end
-local Button = Tab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "GetTheBestPetAuto",
    Callback = function()
   game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CanBuyEgg"):InvokeServer('Air Jinn',false)

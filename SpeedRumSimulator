@@ -67,9 +67,10 @@ end
 })
 
 local Button = Tab:CreateButton({
-   Name = "GetTheBestPetAuto",
+   Name = "AutoGetBestPetInGame",
    Callback = function()
-  game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CanBuyEgg"):InvokeServer('Air Jinn',false)
+   game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CanBuyEgg"):InvokeServer('Air Jinn',false)
+   -- The function that takes place when the button is pressed
    end,
 })
 end

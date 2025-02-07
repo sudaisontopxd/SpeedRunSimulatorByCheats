@@ -65,10 +65,11 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebir
 end
    end,
 })
-end
-local Button = MainTab:CreateButton({
+
+local Button = Tab:CreateButton({
    Name = "GetTheBestPetAuto",
    Callback = function()
   game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CanBuyEgg"):InvokeServer('Air Jinn',false)
    end,
 })
+end
